@@ -1,10 +1,3 @@
-/**
-* Template Name: Laura - v4.10.0
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -316,14 +309,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../myimg/w5.jpg") top right;
+  background: url("../img/w5.jpg") top right;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 30, 0.65);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -344,20 +337,28 @@ h6 {
   padding: 0 15px;
 }
 
+#hero h3 {  
+  margin: 0 0 0 00px;
+  font-size: 40px;
+  font-family: "Satisfy", serif;
+  color: #ffffff;  
+}
+
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
+  margin: 0 0 0 0; /* Top-right-bottom-left */  
+  font-size: 84px;
   font-family: "Satisfy", serif;
   color: #fff;
 }
 
-#hero h2 {
-  color: #eee;
-  margin-bottom: 50px;
-  font-size: 13px;
-  font-weight: 500;
+#hero h2 {  
+  margin: 0 0 0 00px;  
+  font-size: 33px;
+  font-family: "Roboto";
+  font-weight: 700;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  color: #ffd700;  
+  /* text-transform: uppercase; */
 }
 
 #hero .btn-scroll {
@@ -611,7 +612,7 @@ section {
 }
 
 .about .image {
-  background: url("../myimg/p1.jpg") center center no-repeat;
+  background: url("../img/p1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -774,7 +775,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../myimg/b1.jpg") no-repeat;
+  background: url("../img/b1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
