@@ -353,7 +353,7 @@ h6 {
 
 #hero h2 {  
   margin: 0 0 0 00px;  
-  font-size: 33px;
+  font-size: 3vw;
   font-family: "Roboto";
   font-weight: 700;
   letter-spacing: 1px;
@@ -365,6 +365,10 @@ h6 {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+.web-link {
+  color: black;
 }
 
 #hero .btn-scroll i {
